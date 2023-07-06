@@ -1,0 +1,109 @@
+body{
+    background-image: url('../image/image-1-1024x712.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+@media (max-width: 500px) {
+    .topheading_one{
+        font-size: 5px;
+    }
+}
+
+.fontstyle{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10%;
+    padding-right: 15%;
+    margin-top: 10px;
+}
+
+#netflixtext{
+    flex: 1;
+    color: red;
+    font-size: 50px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+#languagebtn{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 3px;
+    height: 30px;
+    width: 100px;
+}
+#Sigupbtn
+{
+    background-color: red;
+    border: 0px;
+    border-radius: 3px;
+    height: 30px;
+    width: 70px;
+    color: white;
+}
+
+.headingone{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15%;
+    color: white;
+    text-align: center;
+}
+.topheading_one{
+    flex: 1;
+    font-size: 60px;
+    margin: 0px;
+}
+
+.bottomheading_one{
+    flex: 1;
+    font-size: 30px;
+    margin: 0px;
+}
+.headingtwo {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    margin-top: 0%;
+    text-align: center;
+    color: #fff;
+}
+.rowgobrr{
+    display: flex;
+    gap: 50px;
+}
+.bottomheading_two
+{
+    font-size: 23px;
+}
+.getstart{
+    flex: 1;
+    height: 50px;
+    width: 200px;   
+    background-color: red;
+    border: solid red;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.emailadd{
+    flex: 1;
+    width: 400px;
+    height: 50px;
+    background-color: rgba(44, 43, 43, 0.7);
+    border: 1px solid white;
+    border-radius: 5px;
+}
